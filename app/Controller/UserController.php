@@ -28,6 +28,6 @@ class UserController extends Controller
             'name' => 'Jane Doe'
         ];
 
-        return $user;
+        return $this->json($user);
     }
 }
